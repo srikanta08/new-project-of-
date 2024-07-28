@@ -1,0 +1,47 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.search-container, .button-container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: blue;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#studentTable, .gender-table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#studentTable th, #studentTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#studentTable th {
+    background-color: #f2f2f2;
+}
+
+.image{
+    width:50px;
+    height:50px;
+}
+
+#studentTable>thead>tr>th{
+    color: wheat;
+    background-color: rgb(243, 7, 160);
+}
+
